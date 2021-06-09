@@ -44,6 +44,6 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
     ],
-    long_description=read_file('README.md'),
-    long_description_content_type='text/markdown',
+    long_description=read_file('README.rst'),
+    long_description_content_type='text/x-rst',
 )
