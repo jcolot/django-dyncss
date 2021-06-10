@@ -1,6 +1,5 @@
-
 =============
-Django DynCSS
+django-dyncss
 =============
 
 `Django DynCSS <https://github.com/jcolot/django-dyncss>`_ is an extension
@@ -22,12 +21,15 @@ Configuration
 =============
 
 Add the package to your `INSTALLED_APPS`:
+::
 
-    INSTALLED_APPS += (
+    INSTALLED_APPS = (
+        ...
         'django_dyncss',
     )
 
 Add the url path in your main urls.py.
+::
 
     urlpatterns = [
         ...
@@ -40,10 +42,12 @@ Usage
 Create a CSS File from the Django Admin
 
 Add a link to that file in your Django template
+::
 
     <link rel="stylesheet" href="dyncss/example.css">
 
 You can also use the template tag
+::
 
     {% load dyncss %}
 
@@ -61,4 +65,3 @@ Resources
 =========
 
 -   `Code <https://github.com/jcolot/django-dyncss>`_
-
