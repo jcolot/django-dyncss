@@ -2,7 +2,7 @@ include requirements.txt
 include COPYING
 include README.rst
 
-recursive-include dyncss/templates *
+graft dyncss/templates *
 
 recursive-exclude * *.pyc
 recursive-exclude * *.pyo
