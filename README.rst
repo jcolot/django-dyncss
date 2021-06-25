@@ -25,7 +25,7 @@ Add the package to your `INSTALLED_APPS`:
 
     INSTALLED_APPS = (
         ...
-        'django_dyncss',
+        'dyncss',
     )
 
 Add the url path in your main urls.py.
