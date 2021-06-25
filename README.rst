@@ -33,7 +33,7 @@ Add the url path in your main urls.py.
 
     urlpatterns = [
         ...
-        url(r'^dyncss/', include('dyncss.urls')),
+        path('dyncss/', include('dyncss.urls')),
     ]
 
 Usage
