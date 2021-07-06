@@ -4,9 +4,9 @@ django-dyncss is an extension to Django allowing to save css assets in the DB
 
 __version_info__ = {
     'major': 0,
-    'minor': 0,
-    'micro': 4,
-    'releaselevel': 'beta',
+    'minor': 1,
+    'micro': 0,
+    'releaselevel': 'final',
 }
 
 
