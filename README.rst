@@ -4,7 +4,7 @@ django-dyncss
 
 `Django DynCSS <https://github.com/jcolot/django-dyncss>`_ is an extension
 to `Django <https://github.com/django/django>`_ which adds the possibility
-to store css files in the Django DB.
+to store css files in the Django DB with simple versioning.
 
 Installation
 ============
